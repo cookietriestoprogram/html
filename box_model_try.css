@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.box-one {
+    background-color: #eb5757;
+    padding: 20px;
+    border: 20px solid #9B51E0;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    /* box-sizing: border-box; - accounts for the height and width (height - border - padding = real height) */
+}
+
+.box-two {
+    background-color: #2D9CDB;
+    border: 0 solid #27AE60;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 30px solid #9B51E0;
+    margin: 20px;
+}
