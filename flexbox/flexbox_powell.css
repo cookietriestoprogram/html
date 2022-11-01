@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+.nav-list {
+    background: peachpuff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    display: flex;
+    /* justify-content: space-evenly; Only works when it has leftover space in main axis*/
+}
+
+
+li {
+    flex: 1;
+    display: flex;
+    /* Alignment of the text inside */
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+li:hover {
+    background-color: blanchedalmond;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategrey;
+    font-weight: bold;
+}

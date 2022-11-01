@@ -1,0 +1,34 @@
+* {
+    font-family: Verdana, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+.footer {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+
+.contact {
+    flex: 1 1 0px;
+}
+
+.useful-link {
+    flex: 1 1 0px;
+}
+
+.recent-post {
+    flex: 1 1 0px;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: lightsalmon;
+    margin-left: 41px;
+}
