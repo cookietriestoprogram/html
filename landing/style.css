@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 0 12%;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro {
+    display: flex;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+/* information */
+
+.information1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.combo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information1 .subtext {
+    width: 150px;
+}
+
+.box {
+    border-radius: 10px;
+    border: 5px solid skyblue;
+    height: 150px;
+    width: 150px;
+}
+
+/* quote */
+.quote {
+    padding: 5% 12%;
+    display: flex;
+    flex-direction: column;
+}
+
+.source {
+    align-self: flex-end;
+}
+
+/* cta */
+
+.cta {
+    border-radius: 10px;
+    background-color: darkcyan;
+    padding: 2% 5%;
+    margin: 2% 12%;
+    color: white;
+
+
+    display: flex;  
+    align-items: center;
+}
+
+.cta .left {
+    width: 75%;
+}
+
+.cta .right {
+    width: 25%;
+}
+
+.cta .title {
+    font-weight: bold;
+}
+
+.cta .subtext {
+    font-size: small;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+
+/* references */
