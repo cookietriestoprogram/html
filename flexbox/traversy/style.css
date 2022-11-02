@@ -4,17 +4,26 @@
     padding: 0;
 }
 
-.box {
-    border: 5px solid  maroon;
-    background-color: peachpuff;
-    width: 100px;
-    height: 100px;
-    /* margin: 10px; */
+
+.container-top{
+    display: flex;
+    justify-content: center;
 }
 
-.boxes {
+.nav {
     display: flex;
-    /* flex-direction: column;  */
-    background-color: lightgrey;
+    width: 90%;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin: 0 10px;
 }
 
