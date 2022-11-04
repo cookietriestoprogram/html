@@ -18,7 +18,7 @@ body {
 
 .container {
     width: 65%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
 }
 
@@ -34,6 +34,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 
 .nav {
     display: flex;
@@ -52,13 +53,13 @@ body {
 .intro {
     display: flex;
     align-items: center;
-    height: 70%;
+    height: 55%;
     justify-content: space-between;
     margin: auto 0;
 }
 
 .intro .left,.intro .right {
-    width: 50%;
+    width: 48%;
     display: flex;
     flex-direction: column;
 }
@@ -78,7 +79,7 @@ body {
 .intro .signup {
     background-color: steelblue;
     border: none;
-    border-radius: 10%;
+    border-radius: 0.5rem;
     width: 20%;
     padding: 5px;
     color: white;
@@ -86,7 +87,7 @@ body {
 
 
 .intro .title {
-    font-size: 38px;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -94,14 +95,13 @@ body {
 /* INFORMATION BLOCK */
 
 .information {
-    height: 300px;
+    height: 375px;
 }
 
 .information .container {
-    border: 1px solid red;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .information .title {
@@ -131,11 +131,76 @@ body {
 .combo .subtext {
     font-size: 12px;
     text-align: center;
-    width: 50%;
+    width: 70%;
 } 
 
 
+/* QUOTE */
 
+.quote {
+    height: 350px;
+}
+
+.quote .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 52%;
+}
+
+
+.source {
+    align-self: flex-end;
+}
+
+/* CTA */
+
+.cta {
+    height: 275px;
+    color: white;
+}
+
+.cta .container {
+    background: darkblue;
+    height: 50%;
+    margin: auto 0;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta .left {
+    /* border: 1px solid white; */
+    width: 60%;
+}
+
+.cta .right {
+    /* border: 1px solid white; */
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.signup.last {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 3% 10%;
+}
+
+.cta .title {
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+.footer .container {
+    justify-content: center;
+    padding: 2%;
+}
 
 
 /* DESIGN */
@@ -156,9 +221,21 @@ ul {
 
 .logo {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .quote {
     background-color: #e5e7eb;
 }
+
+
+.quote .text {
+    font-size: xx-large;
+    font-style: italic;
+
+}
+
+.quote .source {
+    font-weight: bold;
+}
+
