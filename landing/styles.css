@@ -10,21 +10,22 @@ body {
     flex-direction: column;
 }
 
+body > * {
+    border: 1px solid black;
+}
+
 .header, .information, .quote, .cta, .footer {
     display: flex;
     justify-content: center;
 }
 
-
 .container {
-    width: 65%;
     border: 1px solid yellow;
-    display: flex;
+    width: 65%;
+
 }
 
-
-
-/* NAVIGATION BAR */
+/* HEADER */
 
 .header {
     height: 375px;
@@ -57,7 +58,7 @@ body {
     margin: auto 0;
 }
 
-.intro .left,.intro .right {
+.intro .left, .intro .right {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -75,6 +76,14 @@ body {
     justify-content: center;
 }
 
+/* INFORMATION */
+
+.information {
+    height: 200px;
+}
+
+/*  */
+
 .intro .signup {
     background-color: steelblue;
     border: none;
@@ -91,76 +100,9 @@ body {
 }
 
 
-/* INFORMATION BLOCK */
 
-.information {
-    height: 200px;
-}
-
-.information .container {
-    border: 1px solid red;
-    flex-direction: column;
-    align-items: center;
-    height: 200px;
-    justify-content: center;
-
-}
-
-.information .title {
-    color: #1F2937;
-    font-weight: 800;
-    font-size: 18px;
-}
-
-.box {
-    border: 5px solid skyblue;
-    width: 175px;
-    height: 175px;
-    border-radius: 1rem;
-}
-
-.boxes {
-    display: flex;
-}
-
-.combo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 210px;
-}
-
-.combo .subtext {
-    font-size: 12px;
-    text-align: center;
-    width: 50%;
-} 
-
-
-
-
-
-/* DESIGN */
 
 .header, .footer {
     background: #1F2937;
     color: white;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.logo {
-    font-weight: 800;
-    font-size: 32px;
-}
-
-.quote {
-    background-color: #e5e7eb;
 }
